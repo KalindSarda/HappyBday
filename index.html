@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Happy Birthday Aanchii</title>
+   </head>
+   <body>
+      <!-- Add the audio element with autoplay, loop, and preload attributes -->
+      <audio id="birthdayAudio" autoplay loop preload="auto">
+         <source src="bdaySong.mp3" type="audio/mpeg">
+      </audio>
+
+ 	<!-- Table with three rows (initially hidden) -->
+    	<table id="infoTable" >
+        	
+		<tr>
+            		<td>
+				<div class="container" id="content">
+            				<div class="birthday-message">
+               					<h1 class="animated-text">Happy Birthday Aanchiiii!</h1>
+            				</div>
+         			</div>
+
+			</td>
+        	</tr>
+        	<tr>
+            		<td> <div><img src="teddy.jpg" alt="Teddy Bear with Birthday Cake" id="teddyImage" class="image-button"></div> </td>
+        	</tr>
+        	<tr id="optionalRow" style="display: none;">
+            		<td><div class="buttoncontainer" >
+            <div class="buttonmessage" id="stopButton">
+               bandh kro!!
+            </div>
+         </div></td>
+        	</tr>
+
+    	</table>
+
+      <script src="script.js"></script>
+   </body>
+</html>

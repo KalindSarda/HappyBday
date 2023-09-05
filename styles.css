@@ -1,0 +1,89 @@
+body {
+
+
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.birthday-message {
+    font-family: Arial, sans-serif;
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.buttoncontainer {
+text-align: center;
+}
+
+.buttonmessage {
+    font-family: Arial, sans-serif;
+    background-color: red;
+	font-size: 24px;
+	
+    color: #fff;
+    padding: 10px;
+	margin:15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.animated-text {
+    font-size: 36px;
+    color: #fff;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Add the fade-in animation */
+.fade-in {
+    animation: fadeIn 2s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Style the static images (balloons and teddy) */
+.image-button {
+    position: absolute;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+/* Style the teddy image */
+#teddyImage {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+	
+}
